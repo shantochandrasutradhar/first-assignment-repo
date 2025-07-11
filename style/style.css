@@ -56,7 +56,8 @@ nav ul li a{
     font-weight: bold;
 }
 
-/*banner section*/
+/*banner section style*/
+
 .banner{
     display: flex;
     margin: 110px 150px;
@@ -78,7 +79,7 @@ nav ul li a{
     border-radius: 40px;
 }
 
-/*users productivity*/
+/*users productivity style*/
 
 .active-users{
     background-color: #e0e0f8;
@@ -113,4 +114,51 @@ nav ul li a{
     color: #959595;
     text-align: center;
     margin-top: -55px;
+}
+
+/* input field style */
+
+.section-field{
+    display: flex;
+    background-color: #f8f9fb;
+    padding: 40px 150px;
+    gap: 100px;
+    justify-items: center;
+    padding: 40px 150px;
+
+}
+.title{
+   font-size: 80px;
+   font-weight: 700; 
+}
+
+.section-colum{
+    width: 50%;
+   padding-top: 60px;
+}
+
+.section-colum2{
+   width: 50%;
+   margin: 50px;
+}
+ form input[type="email"],form input[type="text"],form textarea{
+    width: 100%;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    display: block;
+    font-size: 16px;
+    padding: 15px 25px;
+    margin:5px 0px 5px 0px ;
+    border:1px solid rgb(201, 200, 200);
+}
+.btn-primarry{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    width: 100%;
+    font-weight: bold;
+    background-color: #4E47FF;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;  
 }
