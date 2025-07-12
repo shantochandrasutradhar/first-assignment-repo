@@ -116,11 +116,36 @@ nav ul li a{
     margin-top: -55px;
 }
 
+/* focus section style*/
+
+.focus-section{
+    background-color: #f5f5fc;
+    margin: 40px 150px;
+    border-radius: 10px 30px 30px 30px;
+}
+.focus-heading{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: #252432;
+    margin-top: -10px;
+    padding-top: 60px;  
+}
+
+.focus-item{
+    text-align: center;
+    padding: 20px;
+}
+.focus-img{
+    padding: 20px 0px 50px 0px;
+
+}
+
 /* input field style */
 
 .section-field{
     display: flex;
-    background-color: #f8f9fb;
+    background-color: #ffffff;
     padding: 40px 150px;
     gap: 100px;
     justify-items: center;
@@ -144,17 +169,19 @@ nav ul li a{
  form input[type="email"],form input[type="text"],form textarea{
     width: 100%;
     border-radius: 5px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(247, 245, 245);
     display: block;
     font-size: 16px;
     padding: 15px 25px;
     margin:5px 0px 5px 0px ;
     border:1px solid rgb(201, 200, 200);
 }
+
 .btn-primarry{
     color: rgb(255, 255, 255);
     font-size: 16px;
     width: 100%;
+    margin-top: 10px;
     font-weight: bold;
     background-color: #4E47FF;
     padding: 15px 30px;
@@ -162,3 +189,7 @@ nav ul li a{
     border-radius: 10px;
     cursor: pointer;  
 }
+
+
+
+
