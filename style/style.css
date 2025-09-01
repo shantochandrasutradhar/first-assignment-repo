@@ -1,8 +1,8 @@
 
 .inter-normal {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 /* header bg-images*/
 
@@ -40,11 +40,14 @@ nav ul li a{
     border-radius: 10px;
     cursor: pointer;
 }
+.btn-primary:hover{
+    background-color: #221bda;
+}
+
 /*hero section style*/
 
 .hero-section{
-
-   margin: 80px 267px 50px 267px;
+    margin: 80px 267px 50px 267px;
 }
 .hero-title{
     text-align: center;
@@ -65,13 +68,12 @@ nav ul li a{
     justify-items: center;
 }
 .banner-title{
-  color: #252432;
-  font-size: 42px;  
-  font-weight: bold;
-  padding-top: 20px;  
+    color: #252432;
+    font-size: 42px;  
+    font-weight: bold;
+    padding-top: 20px;  
 }
 .banner-descrip{
-
     font-size: 20px;
     font-weight: 300;
     color: #a09e9e;
@@ -88,7 +90,6 @@ nav ul li a{
     background-color: #e0e0f8;
     margin: 130px 150px;
     border-radius: 20px;
- 
 }
 .heading{
     text-align: center;
@@ -98,16 +99,17 @@ nav ul li a{
     padding-top: 60px;
 }
 .productive-users{
+    gap: 60px;
     display: flex;
-   text-align: center;
-   
+    text-align: center;
+    justify-content: center;
 }
 .productive-activity{
-    margin-right: 180px;
-    padding: 0px 0px 70px 100px;
+    margin-bottom: 80px;
+    padding: 0px 20px 0px 20px;
 }
 .users{
-    font-size: 80px;
+    font-size: 85px;
     font-weight: bold;
     color: #4E47FF;
 }
@@ -158,22 +160,18 @@ nav ul li a{
     padding: 40px 150px;
     gap: 100px;
     justify-items: center;
-    padding: 40px 150px;
-
 }
 .title{
-   font-size: 80px;
-   font-weight: 700; 
+    font-size: 80px;
+    font-weight: 700; 
 }
-
 .section-colum{
     width: 50%;
-   padding-top: 60px;
+    padding-top: 60px;
 }
-
 .section-colum2{
-   width: 50%;
-   margin: 50px;
+    width: 50%;
+    margin: 50px;
 }
  form input[type="email"],form input[type="text"],form textarea{
     width: 100%;
@@ -186,18 +184,6 @@ nav ul li a{
     border:1px solid rgb(201, 200, 200);
 }
 
-.btn-primarry{
-    color: rgb(255, 255, 255);
-    font-size: 16px;
-    width: 100%;
-    margin-top: 10px;
-    font-weight: bold;
-    background-color: #4E47FF;
-    padding: 15px 30px;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;  
-}
 
 /* footer section style*/
 
@@ -222,13 +208,11 @@ nav ul li a{
     color: #8d8b8b;
     line-height: 16pt;
     text-align: center;
-
 }
 .menu ul li{
     list-style: none;
     display: inline;
     margin-right: 25px;
-  
 }
 .menu ul li a{
     text-decoration: none;
